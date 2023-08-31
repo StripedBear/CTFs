@@ -54,6 +54,7 @@ parser = argparse.ArgumentParser(description='Joomla checker')
 parser.add_argument('-t', '--target', type=str, help='Target: https://example.example')
 parser.add_argument('-c', '--css', action='store_const', const=True, default=False)
 parser.add_argument('-H', '--html', action='store_const', const=True, default=False)
+parser.add_argument('-j', '--joomla', action='store_const', const=True, default=False)
 parser.add_argument('-p', '--php', type=str, help='Not now...')
 args = parser.parse_args()
 
