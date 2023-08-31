@@ -64,7 +64,7 @@ if args.css:
 elif args.html:
     check_htmlcnt(args.target)
 elif args.php:
-	check_phpv(args.target)
+    check_phpv(args.target)
 elif args.joomla:
     check_joomlav(args.target)
 else:
